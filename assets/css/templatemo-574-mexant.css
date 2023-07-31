@@ -603,7 +603,7 @@ header
     width: 100%;
   }
   .header-area {
-    background-color: #f7f7f7;
+    /* background-color: #f7f7f7; */
     padding: 0px 15px;
     min-height: 100px;
     box-shadow: none;
@@ -1651,9 +1651,9 @@ body {
   .header-area .main-nav .nav li ul li:last-child {
     display: inline-block;
   }
-  .header-area {
+  /* .header-area {
     background-color: #212741;
-  }
+  } */
   .slide-inner .header-text {
     width: 80%;
   }
