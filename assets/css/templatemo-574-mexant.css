@@ -82,7 +82,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  /* background-color: #fff; */
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -153,8 +153,9 @@ body {
 
 .green-button a {
   font-size: 14px;
-  color: #fff;
-  background-color: #43ba7f;
+  color: #000;
+  /* background-color: #43ba7f; */
+  background-color: #fff;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -234,11 +235,11 @@ header
 } */
 
 .header-area {
-  background-image: url(../images/heading-bg.jpg);
+  /* background-image: url(../images/heading-bg.jpg); */
   width: 100%;
-  background-size: cover;
+  /* background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
   /* position: absolute; */
   min-height: 110px;
   z-index: 100;
@@ -330,9 +331,7 @@ header
   transition: all .3s;
 } */
 
-/* .header-area .main-nav .nav li:last-child a:hover {
-  color: #fff;
-} */
+/* .header-are.header-area .main-nav .nav li.has-sub:after */
 /* 
 .header-area .main-nav .nav li.has-sub ul.sub-menu li:last-child a,
 .background-header .main-nav .nav li.has-sub ul.sub-menu li:last-child a {
@@ -569,6 +568,21 @@ header
     padding-right: 10px;
   }
   .header-area .main-nav:before {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .list-group{
+    width: 58px;
+  }
+  .list-group-item-action{
+    width: auto;
+  }
+  .list-icon {
+    font-size: 19px;
+  }
+  .list-text{
     display: none;
   }
 }
@@ -1622,6 +1636,11 @@ responsive
 
 
 body {
+  background-image: url(../images/heading-bg.jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   overflow-x: hidden;
 }
 
