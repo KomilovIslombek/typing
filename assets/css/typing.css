@@ -29,8 +29,8 @@
     position: relative;
   }
   .typing-text p span.correct{
-    /* color: #56964f; */
-    color: #17A2B8;
+    color: #56964f;
+    /* color: #17A2B8; */
   }
   .typing-text p span.incorrect{
     color: #cb3439;
@@ -118,9 +118,9 @@
     font-weight: 500;
   }
   @media (max-width: 745px) {
-    .wrapper{
+    /* .wrapper{
       padding: 20px;
-    }
+    } */
     .content-box .content{
       padding: 20px 0;
     }
@@ -153,8 +153,13 @@
     .wrapper .content-box{
       padding: 10px 15px 0;
     }
+    .change-col{
+        padding-left: 0 !important;
+    }
     .typing-text p{
-      font-size: 18px;
+      /* font-size: 18px; */
+      font-size: 16px;
+      line-height: 20px;
     }
     .result-details li{
       margin-bottom: 10px;
