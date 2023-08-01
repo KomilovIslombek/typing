@@ -572,6 +572,23 @@ header
   position: relative;
 }
 
+/* List group start */
+.list-group-item-active{
+  background: transparent;
+   border-color: white;
+  color: white;
+}
+.list-group-item-active:hover, .list-group-item-active:focus, .list-group-item-active:active{
+  background: rgba(21, 18, 57, 0.39);
+  opacity: .90;
+}
+.list-group-item-active:hover h5{
+  color: grey;
+}
+.list-group-item-active h5{
+  color: white;
+}
+
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 10px;
@@ -1791,5 +1808,43 @@ body {
   }
   .testimonials .item {
     padding: 50px;
+  }
+}
+
+
+@media (max-width:572px) {
+  .slide-inner .header-text h2 {
+    font-size: 38px !important;
+    
+  }
+  .slide-inner .header-text .buttons {
+    display: flex !important;
+    flex-wrap: wrap-reverse;
+    gap: 13px;
+  }
+
+  .green-button a  {
+    font-size: 12px;
+    
+  }
+
+  .orange-button a {
+    font-size: 12.2px;
+
+  }
+
+  .slide-inner .header-text .buttons .green-button {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width:492px) {
+  .slide-inner .header-text{
+    width: 93%;
+  }
+  .slide-inner .header-text h2 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+    margin-bottom: 20px;
   }
 }
