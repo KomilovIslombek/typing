@@ -196,10 +196,14 @@ body {
   opacity: 0.9;
 }
 
-section {
-  margin-top: 120px;
+/* section {
+  padding-top: 80px;
+  padding-bottom: 50px;
+} */
+.chnage_section{
+  display: flex;
+  align-items: center;
 }
-
 .section-heading {
   position: relative;
   z-index: 2;
@@ -1663,12 +1667,14 @@ responsive
 
 
 body {
+  overflow-x: hidden;
+}
+main{
   background-image: url(../images/heading-bg.jpg);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  overflow-x: hidden;
 }
 
 @media (max-width: 992px) {
