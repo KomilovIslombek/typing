@@ -1820,7 +1820,7 @@ main{
 /* Media start */
 
 @media (max-width:575px) {
-  .card-register{
+  .card.my-form{
     padding: 1.5rem !important;
   }
   .slide-inner .header-text h2 {

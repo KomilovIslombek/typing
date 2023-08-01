@@ -36,14 +36,16 @@ charIndex = mistakes = isTyping = 0;
 
 function loadParagraph() {
     const ranIndex = Math.floor(Math.random() * paragraphs.length);
-    typingText.innerHTML = "";
-    paragraphs[ranIndex].split("").forEach(char => {
-        let span = `<span>${char}</span>`
-        typingText.innerHTML += span;
-    });
-    typingText.querySelectorAll("span")[0].classList.add("active");
-    document.addEventListener("keydown", () => inpField.focus());
-    typingText.addEventListener("click", () => inpField.focus());
+    if(typingText) {
+        typingText.innerHTML = "";
+        paragraphs[ranIndex].split("").forEach(char => {
+            let span = `<span>${char}</span>`
+            typingText.innerHTML += span;
+        });
+        typingText.querySelectorAll("span")[0].classList.add("active");
+        document.addEventListener("keydown", () => inpField.focus());
+        typingText.addEventListener("click", () => inpField.focus());
+    }
 }
 
 function initTyping() {
@@ -110,5 +112,7 @@ function resetGame() {
 }
 
 loadParagraph();
-inpField.addEventListener("input", initTyping);
-tryAgainBtn.addEventListener("click", resetGame);
+if(inpField) {
+    inpField.addEventListener("input", initTyping);
+    tryAgainBtn.addEventListener("click", resetGame);
+}
