@@ -1817,8 +1817,12 @@ main{
   }
 }
 
+/* Media start */
 
-@media (max-width:572px) {
+@media (max-width:575px) {
+  .card-register{
+    padding: 1.5rem !important;
+  }
   .slide-inner .header-text h2 {
     font-size: 38px !important;
     
@@ -1844,7 +1848,7 @@ main{
   }
 }
 
-@media (max-width:492px) {
+@media (max-width:495px) {
   .slide-inner .header-text{
     width: 93%;
   }
