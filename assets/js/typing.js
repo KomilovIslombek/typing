@@ -35,6 +35,7 @@ charIndex = mistakes = isTyping = 0;
 
 function loadParagraph() {
     const ranIndex = Math.floor(Math.random() * paragraphs.length);
+    // console.log(ranIndex);
     typingText.innerHTML = "";
     paragraphs[ranIndex].split("").forEach(char => {
         let span = `<span>${char}</span>`
