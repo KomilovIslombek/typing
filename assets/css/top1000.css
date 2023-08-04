@@ -32,18 +32,12 @@
     /* flex-wrap: wrap; */
 }
 
-.softcore {
+.softcore, .hardcore {
     display: flex;
     flex-direction: column;    
-    /* width: 50%; */
-}
-.hardcore {
-    display: flex;
-    flex-direction: column;
-    /* width: 50%; */
 }
 
-.level__col {
+.level__col, .level__col__two {
     position: relative;
     margin-bottom: 7px;
     text-decoration: none;
@@ -61,20 +55,10 @@
     
 }
 
-.level__col__two {
-    margin-bottom: 7px;
-    text-decoration: none;
-    letter-spacing: 1px;
-    color: #000000;
-    background-color: #eeeeee;
-    padding: 15px 0;
-    border-radius: 5px;
-    font-weight: 500;
-    transition: all .3s;
-    font-size: 20px;
-    
+.level__col-hard{
+  color: #000000;
+  background-color: #eeeeee;
 }
-
 
 
 .levels a.level .stars,
