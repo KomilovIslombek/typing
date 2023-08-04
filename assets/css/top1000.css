@@ -1,0 +1,266 @@
+.top__typing {
+    background-image: url();
+    /* width: 1114px; */
+    border-radius: 7px;
+    /* margin-right: 5px; */
+    margin-bottom: 40px;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+}
+
+.top__level {
+    background-color: white;
+    border-radius: 7px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+#lang__select {
+    width: 150px;
+
+}
+
+#lang__top1000 {
+    width: 100%;
+}
+
+.softcore__hardcore__top {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* gap: 30px; */
+    padding: 0 20px;
+    /* flex-wrap: wrap; */
+}
+
+.softcore {
+    display: flex;
+    flex-direction: column;    
+    /* width: 50%; */
+}
+.hardcore {
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+}
+
+.level__col {
+    position: relative;
+    margin-bottom: 7px;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+    font-size: 14px;
+    color: #fff;
+    background-color: #f35d30;
+    padding: 15px 0;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    font-size: 20px;
+    
+}
+
+.level__col__two {
+    margin-bottom: 7px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #000000;
+    background-color: #eeeeee;
+    padding: 15px 0;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all .3s;
+    font-size: 20px;
+    
+}
+
+
+
+.levels a.level .stars,
+.levels a.level .stars {
+  /* position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 30%;
+  min-width: 100px; */
+
+  width: 210px;
+  float: left;
+  margin-top: -3px;
+}
+.levels a.level .stars .star,
+.levels a.level .stars .star {
+  width: 24px;
+  height: 24px;
+  background: url('https://img.10fastfingers.com/img/layout/sprite-main.png') -5px -567px no-repeat;
+  display: block;
+  float: left;
+  margin-right: 5px;
+}
+ .levels a.level .stars .star1,
+.levels a.level .stars .star1 {
+  background-position: -35px -567px;
+}
+ .levels a.level .stars .star2,
+.levels a.level .stars .star2 {
+  background-position: -67px -567px;
+}
+ .levels a.level .stars .star3,
+.levels a.level .stars .star3 {
+  background-position: -97px -567px;
+}
+ .levels a.level .stars .star4,
+.levels a.level .stars .star4 {
+  background-position: -127px -567px;
+}
+ .levels a.level .stars .star5,
+.levels a.level .stars .star5 {
+  background-position: -158px -567px;
+}
+ .levels a.level .stars .star6,
+.levels a.level .stars .star6 {
+  background-position: -189px -567px;
+}
+ .levels a.level .stars .star7,
+.levels a.level .stars .star7 {
+  background-position: -218px -567px;
+}
+ .levels a.level .wpm-and-lock-icon,
+.levels a.level .wpm-and-lock-icon {
+  text-align: right;
+  width: 55px;
+  font-size: 12px;
+  color: #898989;
+  letter-spacing: -1px;
+  word-spacing: 2px;
+  float: left;
+}
+ .levels a.level lock,
+.levels a.level lock {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 29px;
+  height: 29px;
+  display: block;
+  background: url('https://img.10fastfingers.com/img/layout/sprite-main.png') -560px -363px no-repeat;
+  
+}
+ a.level.boss .level-label,
+a.level.boss .level-label {
+  color: #ff9105;
+}
+
+
+.levels a.level, .levels a.level {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    height: 45px;
+    padding-left: 10px;
+    padding-top: 12px;
+    margin-bottom: 5px;
+    background: #fff;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #b1d1ea;
+    /* -webkit-box-shadow: 0px 1px 1px 0px rgba(255, 255, 255, 0.7), inset 0px 1px 1px 1px rgba(0, 0, 0, 0.1); */
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(255, 255, 255, 0.7), inset 0px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 1px 0px rgba(255, 255, 255, 0.7), inset 0px 1px 1px 1px rgba(0, 0, 0, 0.1)
+}
+
+
+.levels a.level .level-label, .levels a.level .level-label {
+    width: 110px;
+    font-size: 14px;
+    color: #0088ce;
+    float: left;
+    font-weight: bold;
+}
+
+.levels a.level:hover, .levels a.level:hover{
+    background: #fff9c3;
+}
+
+.toggleClose{
+    display: none ;
+}
+
+a.achievement.locked,
+a.achievement.competition.locked {
+  width: 44px;
+  height: 44px;
+  border: 2px solid #ddd;
+  background: url('https://img.10fastfingers.com/img/layout/sprite-main.png') -508px -361px #eee;
+}
+
+.softcore .locked,
+.softcore .locked {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+.softcore .levels,
+.softcore .levels {
+  display: none;
+}
+.softcore .levels .level.locked,
+.softcore .levels .level.locked {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.softcore a.level__col lock, .softcore a.level__col lock {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 29px;
+  height: 29px;
+  display: block;
+  background: url(https://img.10fastfingers.com/img/layout/sprite-main.png) -560px -363px no-repeat;
+}
+
+
+@media (max-width: 1119px) {
+  .softcore, .hardcore{
+    width: 100%;
+  }
+}
+
+@media (max-width: 645px) {
+  .levels a.level .stars,
+  .levels a.level .stars {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40%;
+    min-width: 100px;
+    width: fit-content;
+    float: none;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 462px) {
+  .softcore__hardcore__top{
+    padding: 0 10px;
+  }
+  
+  .levels a.level .stars .star, .levels a.level .stars .star{
+    width: 24px;
+    height: 24px;
+    background: url(https://img.10fastfingers.com/img/layout/sprite-main.png) -5px -567px no-repeat;
+    /* display: block;
+    float: left;
+    margin-right: 5px; */
+  } 
+  .levels a.level .stars, .levels a.level .stars{
+    left: 50%;
+  }
+  .changeNone-star{
+    display: none !important;
+  }
+
+}

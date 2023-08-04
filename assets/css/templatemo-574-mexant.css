@@ -604,6 +604,9 @@ header
 }
 
 @media (max-width: 1000px) {
+  .left-sideBar-change{
+    width: auto;
+  }
   .list-group{
     width: 58px;
   }
@@ -615,6 +618,28 @@ header
   }
   .list-text{
     display: none;
+  }
+  .change-row{
+    flex-wrap: nowrap;
+  }
+  .change-col-top100{
+    width: 90%;
+    padding-left: 0;
+    margin-right: 10;
+    /* margin-top: 10px; */
+  }
+}
+
+@media (max-width: 535px) {
+  .change-row{
+    flex-wrap: wrap;
+  }
+  .change-col-top100{
+    width: 95%;
+    margin: 15px auto ;
+    padding-right: 0 !important;
+    /* margin-right: 10; */
+    /* margin-top: 10px; */
   }
 }
 
